@@ -9,7 +9,7 @@ let lang = prompt("Выберите язык, ru или en. Choose language, ru 
   namePerson = prompt("Введите Ваше имя");
 
 if (lang == "ru") console.log(daysRu);
-else if (lang == "en") console.log(daysRu);
+else if (lang == "en") console.log(daysEn);
 
 switch(lang) {
   case "ru":
