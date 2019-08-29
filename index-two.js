@@ -21,8 +21,4 @@ switch(lang) {
   }
  
 console.log(arr.get(lang));
-
 console.log(namePerson == 'Артём' ? "директор" : (namePerson == 'Максим' ? "преподаватель" : "студент"));
-
-//let result = lang == 'ru' ? console.log(String(days[0].ru)) : '';
-//result = lang == 'en' ? console.log(String(days[0].en)) : '';
